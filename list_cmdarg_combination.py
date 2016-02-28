@@ -36,5 +36,5 @@ for element in itertools.combinations(cmdargs_list, element_num):
     outcomes.append(element)
 
 for outcome in outcomes:
-    each_record = " ".join(list(outcome))
-    print each_record
+    record = " ".join(list(outcome))
+    print record
